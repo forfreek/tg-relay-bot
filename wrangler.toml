@@ -4,7 +4,7 @@ compatibility_date = "2025-09-01"
 
 [[kv_namespaces]]
 binding = "nfd"
-id = "c880f077fa9f49678b9f4815a85a7e4f"
+id = "753ec8b566424fb3aea4905359c06fef"
 
 # ─── Required secrets (set via `wrangler secret put <name>`) ───────────────
 #   ENV_MANAGER_BOT_TOKEN  Manager bot token (a SEPARATE BotFather bot,
