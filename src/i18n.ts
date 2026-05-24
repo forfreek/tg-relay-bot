@@ -27,9 +27,9 @@ function bil<A extends readonly unknown[]>(
 export const T = {
   manager: {
     welcome: bil(
-      () => '欢迎使用 Relay-Bot 管家。\n/setup 接入新 bot；/help 查看完整命令清单。',
+      () => '欢迎使用 匿名私聊管家。\n/setup 接入新 bot；/help 查看完整命令清单。',
       () =>
-        'Welcome to Relay-Bot Manager.\n/setup to onboard a new bot; /help for the full command list.',
+        'Welcome to AnonymousChat Manager.\n/setup to onboard a new bot; /help for the full command list.',
     ),
     onboardingCancelled: bil(
       () => '已取消接入流程。',
